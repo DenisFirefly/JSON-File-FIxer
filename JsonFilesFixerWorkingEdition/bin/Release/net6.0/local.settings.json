@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=jsonproblemstorage;AccountKey=zv+tanERNbrDAu/9PjKlq5JMHGJHn27V5sx64VHvqLQM41OxPJd1DX72emedlwY35Gv6W9WKkXJw+AStiNSUzg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "CONNECTION_STRING_LogError_JsonRepairer": "https://inconsult-db-api.azurewebsites.net/api/LogError_DEV?code=nDp4yxczXMkxYzjkUoOC9TdPS7Bdlf8WU04iOSnWY3jVAzFux8iKfQ==",
+    "JSONRepairFunction_URL": "",
+    "CONNECTION_STRING_Token": "https://login.microsoftonline.com/ff3d7395-ff33-4b5d-8f9c-e89b2a5804d6/oauth2/token",
+    "CLIENT_ID": "c3cfc30d-3fde-4d97-bdf2-ea2db7dcc66a",
+    "CLIENT_SECRET": "7AJ8Q~ko9LIV5oqRpk71nKCzsXt9fgHYdN11Jdgb",
+    "RESOURCE": "c3cfc30d-3fde-4d97-bdf2-ea2db7dcc66a",
+    "TENANT_ID": "ff3d7395-ff33-4b5d-8f9c-e89b2a5804d6"
+  }
+}

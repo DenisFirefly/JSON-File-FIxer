@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "storage2": {
+      "restored": true,
+      "restoreTime": "2023-05-02T07:25:49.5787382Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-05-02T07:25:44.8951589Z"
+    },
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2023-05-02T07:25:03.709391Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2023-05-02T07:25:03.691451Z"
+    }
+  },
+  "parameters": {
+    "storage2.resourceGroupName": {
+      "Name": "storage2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "JSON_Problem"
+    },
+    "storage2.subscriptionId": {
+      "Name": "storage2.subscriptionId",
+      "Type": "subscription",
+      "Value": "c620b310-0d68-4bcf-8cb2-6fd0c1ccdad9"
+    }
+  }
+}

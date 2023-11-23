@@ -1,0 +1,16 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.2.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "blobTrigger",
+      "connection": "AzureWebJobsStorage",
+      "path": "json-files/{name}.json",
+      "source": "logsAndContainerScan",
+      "name": "blob"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/JsonFilesFixerWorkingEdition.dll",
+  "entryPoint": "JsonFilesFixerWorkingEdition.Function.Run"
+}

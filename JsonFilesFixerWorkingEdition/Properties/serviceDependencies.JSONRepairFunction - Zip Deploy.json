@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "appInsights2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/JSONRepairFunction",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+      "dynamicId": null
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/JSONRepairFunction/providers/Microsoft.ServiceLinker/linkers/jsonproblemstorage_729884088D, /subscriptions/c620b310-0d68-4bcf-8cb2-6fd0c1ccdad9/resourceGroups/JSON_Problem/providers/Microsoft.Web/sites/JSONRepairFunction/providers/Microsoft.ServiceLinker/linkers/jsonproblemstorage_EE44DBB55E",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/jsonproblemstorage",
+      "type": "storage.azure",
+      "connectionId": "jsonproblemstorage",
+      "dynamicId": null
+    },
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/JSONRepairFunction/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_8D9B6A8349, /subscriptions/c620b310-0d68-4bcf-8cb2-6fd0c1ccdad9/resourceGroups/JSON_Problem/providers/Microsoft.Web/sites/JSONRepairFunction/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_D348C40050",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/jsonproblemstorage",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage",
+      "dynamicId": null
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "storage2": {
+      "restored": true,
+      "restoreTime": "2023-06-12T14:29:19.7687704Z"
+    },
+    "appInsights2": {
+      "restored": true,
+      "restoreTime": "2023-06-05T13:22:13.7483177Z"
+    },
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2023-06-12T14:30:37.0056284Z"
+    }
+  },
+  "parameters": {
+    "storage2.resourceGroupName": {
+      "Name": "storage2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "JSON_Problem"
+    },
+    "appInsights2.resourceGroupName": {
+      "Name": "appInsights2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "JSON_Problem"
+    },
+    "appInsights2.subscriptionId": {
+      "Name": "appInsights2.subscriptionId",
+      "Type": "subscription",
+      "Value": "c620b310-0d68-4bcf-8cb2-6fd0c1ccdad9"
+    },
+    "storage1.resourceGroupName": {
+      "Name": "storage1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "JSON_Problem"
+    },
+    "storage1.subscriptionId": {
+      "Name": "storage1.subscriptionId",
+      "Type": "subscription",
+      "Value": "c620b310-0d68-4bcf-8cb2-6fd0c1ccdad9"
+    },
+    "storage2.subscriptionId": {
+      "Name": "storage2.subscriptionId",
+      "Type": "subscription",
+      "Value": "c620b310-0d68-4bcf-8cb2-6fd0c1ccdad9"
+    }
+  }
+}
